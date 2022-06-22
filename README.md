@@ -49,7 +49,6 @@ axios
 
 ## 🚀 About Me
 I'm a full stack developer working for Sharlock
-- [@mickaelcornelli](https://github.com/mickaelcornelli)
 
 
 
