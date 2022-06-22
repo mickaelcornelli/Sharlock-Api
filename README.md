@@ -46,13 +46,12 @@ axios
       })
 ```
 
+# Hi, I'm Mickael! 👋
+
 
 ## 🚀 About Me
 I'm a full stack developer working for Sharlock
 
-
-
-# Hi, I'm Mickael! 👋
 
 
 ## 🛠 Skills
