@@ -46,6 +46,30 @@ axios
       })
 ```
 
+#### HTML
+```javascript 
+<div className="sharlock-btn">
+<p className="sharlock-btn-text">Continuez avec Sharlock</p>
+</div>
+```
+
+#### CSS
+```javascript 
+.sharlock-btn{
+    width: 403px;
+    height: 67px;
+    background: linear-gradient(91.45deg, #3300FF 0.28%, #8270EE 96.73%);
+    border-radius: 10px;
+}
+.sharlock-btn-text{
+    font-family: 'Geomatrix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+```
+
 # Hi, I'm Mickael! 👋
 
 
