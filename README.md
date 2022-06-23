@@ -69,7 +69,13 @@ axios
     color: #FFFFFF;
 }
 ```
-![notoken](https://user-images.githubusercontent.com/73282517/175267695-a581f8c7-e5da-42cb-8fdd-e7f4412a3f10.png)
+#### Case when you forget to insert partner token
+![notoken](https://user-images.githubusercontent.com/73282517/175273360-573c833f-a869-4b55-bb63-bf5890c37aed.png)
+#### Case when user password or email is wrong
+![email pass incorrect](https://user-images.githubusercontent.com/73282517/175273355-12a55c7d-645e-4f42-9dc2-01f6a6838db6.png)
+#### Valid case
+![fetch valid](https://user-images.githubusercontent.com/73282517/175273358-9f769e2a-2467-49cc-882c-f503bd4d4b82.png)
+
 
 ## Used By
 
