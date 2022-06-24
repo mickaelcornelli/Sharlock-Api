@@ -54,8 +54,8 @@ axios
 ## Design code btn
 #### HTML
 ```javascript 
-<div className="sharlock-btn">
-<p className="sharlock-btn-text">Continuez avec Sharlock</p>
+<div class="sharlock-btn">
+<p class="sharlock-btn-text">Continuez avec Sharlock</p>
 </div>
 ```
 
@@ -68,7 +68,7 @@ axios
     border-radius: 10px;
 }
 .sharlock-btn-text{
-    font-family: 'Geomatrix';
+    font-family: 'Geomatrix',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
