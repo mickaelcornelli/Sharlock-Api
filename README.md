@@ -38,12 +38,12 @@ axios
     .post("https://sharlock.herokuapp.com/api/v1/signIn", data, {
         headers: { "x-access-token": "YOUR TOKEN" },
       })
-      .then((response) => {
-          console.log(response)
-      })
-      .catch((err)=>{
-          console.log(err)
-      })
+     .then(response => { 
+	console.log(response)
+})
+.catch(error => {
+    console.log(error.response)
+});
 ```
 #### Case when you forget to insert partner token
 ![notoken](https://user-images.githubusercontent.com/73282517/175273360-573c833f-a869-4b55-bb63-bf5890c37aed.png)
