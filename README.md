@@ -38,19 +38,24 @@ axios
     .post("https://sharlock.herokuapp.com/api/v1/signIn", data, {
         headers: { "x-access-token": "YOUR TOKEN" },
       })
-     .then(response => { 
+      .then(response => { 
 	console.log(response)
-})
-.catch(error => {
-    console.log(error.response)
-});
+      })
+      .catch(error => {
+      	console.log(error.response)
+      });
 ```
 #### Case when you forget to insert partner token
-![notoken](https://user-images.githubusercontent.com/73282517/175273360-573c833f-a869-4b55-bb63-bf5890c37aed.png)
+![empty api key insert](https://user-images.githubusercontent.com/73282517/176867433-3e8024af-5c85-49d9-8cdb-96e3d3817b74.png)
+
+#### Case when your token is wrong
+![wrong api key](https://user-images.githubusercontent.com/73282517/176867750-47674800-eb8b-4880-96de-0448e6a5359b.png)
+
 #### Case when user password or email is wrong
-![email pass incorrect](https://user-images.githubusercontent.com/73282517/175273355-12a55c7d-645e-4f42-9dc2-01f6a6838db6.png)
+![wrong pass or email](https://user-images.githubusercontent.com/73282517/176867522-a6fc2586-998e-4731-b6c4-02bf65a9aeee.png)
+
 #### Valid case
-![fetch valid](https://user-images.githubusercontent.com/73282517/175273358-9f769e2a-2467-49cc-882c-f503bd4d4b82.png)
+![valid case](https://user-images.githubusercontent.com/73282517/176867625-6fa6caaa-6d1c-4dee-b5ea-eab44b7583a8.png)
 ## Design code btn
 #### HTML
 ```javascript 
