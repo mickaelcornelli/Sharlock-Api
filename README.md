@@ -129,6 +129,23 @@ React, React-Native, Firebase, Node, MySQL, Javascript...
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mickaelcornelli.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mickaël-cornelli/)
 - [@mickaelcornelli](https://github.com/mickaelcornelli)
+
+
+## FAQ
+
+#### Can I use the api without token or api key ?
+
+In order for partners to write data via the API, we have created a partner specific authentication workflow. Upon being completed successfully, the partner account that is created can be used to fetch data from the client and get all details if the client confirm to send his personnal information like firstname, lastname, age, email etc...
+
+#### Where can i found my API_key ?
+
+You must be a partner to obtain an API key. Visit our website and submit message on our form to be partner.
+
+#### Can I contribute to this API ?
+
+It's not a public API, so you must be a sharlock developper or be in our team to improve API.
+Feel free to contact founders of the project on the github support section.
+
 ## Support
 
 For support, email tanguimoulin@gmail.com or baptsitemoulinlyon@gmail.com
