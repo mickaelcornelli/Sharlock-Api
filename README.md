@@ -28,6 +28,7 @@ A token is required to validate that you are a Sharlock's partner, otherwise the
 
 ## Usage/Examples
 
+### Axios
 ```javascript
 const data = { 
     email: email, 
@@ -45,6 +46,31 @@ axios
       	console.log(error.response)
       });
 ```
+### Fetch
+```
+ const data = { 
+    email: email, 
+    password: password 
+ }
+ const apiURL = "http://localhost:9500/api/v1/signIn"
+ const token = "Your Token"
+
+    fetch(apiURL, {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "content-type": "application/json",
+        'x-access-token': token,
+      }
+    })
+      .then((response) => {
+        response.json()
+          .then((res) => console.log(res))
+          .catch((err) => console.log(err))
+      })
+      .catch((error) => console.log(error))
+```
+
 #### Case when you forget to insert partner token
 ![empty api key insert](https://user-images.githubusercontent.com/73282517/176867433-3e8024af-5c85-49d9-8cdb-96e3d3817b74.png)
 
