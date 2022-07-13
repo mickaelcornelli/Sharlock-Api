@@ -2,7 +2,7 @@
 # ![sharlockLogo](https://user-images.githubusercontent.com/73282517/176868351-755a43ad-1ae7-4b5d-afa9-aaa74044c427.png) Sharlock API
 
 The sharlock API allows our partners to retrieve information from customers who connect to partner's site through our API.
-A token is required to validate that you are a Sharlock's partner, otherwise the API will not return any customer information
+An API KEY is required to validate that you are a Sharlock's partner, otherwise the API will not return any customer information
 ## Tech Stack
 
 **Server:** Node, Express
