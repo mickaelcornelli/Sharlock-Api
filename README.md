@@ -23,7 +23,7 @@ An API KEY is required to validate that you are a Sharlock's partner, otherwise 
 | :-------- | :------- | :------------------------- |
 | `token` | `string` | **Required**. Your api key |
 
-#### Reset user password
+#### Send email to reset user password
 
 ```https://sharlock.herokuapp.com/
   POST /api/v1/resetPassword
