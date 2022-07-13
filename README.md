@@ -21,9 +21,20 @@ A token is required to validate that you are a Sharlock's partner, otherwise the
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `token` | `string` | **Required**. Your token key |
+| `token` | `string` | **Required**. Your api key |
 
+#### Reset user password
 
+```https://sharlock.herokuapp.com/
+  POST /api/v1/resetPassword
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `email` | `string` | **Required**. Email|
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `token` | `string` | **Required**. Your api key |
 
 
 ## Usage/Examples
@@ -37,7 +48,7 @@ const data = {
 
 axios
     .post("https://sharlock.herokuapp.com/api/v1/signIn", data, {
-        headers: { "x-access-token": "YOUR TOKEN" },
+        headers: { "apikey": "YOUR APIKEY" },
       })
       .then(response => { 
 	console.log(response)
@@ -53,14 +64,14 @@ axios
     password: password 
  }
  const apiURL = "http://localhost:9500/api/v1/signIn"
- const token = "Your Token"
+ const apikey = "Your apikey"
 
     fetch(apiURL, {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
         "content-type": "application/json",
-        'x-access-token': token,
+        'apikey': apikey,
       }
     })
       .then((response) => {
